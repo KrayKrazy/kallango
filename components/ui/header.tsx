@@ -11,23 +11,16 @@ export default function Header() {
             <Logo />
           </div>
 
-          {/* Desktop sign in links */}
+          {/* Desktop CTA */}
           <ul className="flex flex-1 items-center justify-end gap-3">
             <li>
-              <Link
-                href="/signin"
-                className="btn-sm bg-white text-gray-800 shadow-sm hover:bg-gray-50"
+              <a
+                href="https://wa.me/556130440199"
+                target="_blank"
+                className="btn-sm bg-green-500 text-white shadow-sm hover:bg-green-600 transition-colors"
               >
-                Login
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/signup"
-                className="btn-sm bg-gray-800 text-gray-200 shadow-sm hover:bg-gray-900"
-              >
-                Register
-              </Link>
+                Fale Conosco
+              </a>
             </li>
           </ul>
         </div>
