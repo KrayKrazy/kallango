@@ -36,7 +36,7 @@ export default function HeroHome() {
                 data-aos="zoom-y-out"
                 data-aos-delay={350}
               >
-                Assistência técnica premium em Águas Claras - DF. PCs Gamers, Watercoolers, Upgrades extremos e consertos de placas com quem entende do jogo.
+                A maior variedade de Placas de Vídeo, Processadores e Watercoolers em Águas Claras - DF. Compre online ou traga sua máquina para nossos especialistas.
               </p>
               <div className="relative">
                 <div
