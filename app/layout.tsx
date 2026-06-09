@@ -9,9 +9,9 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "KallangoTec | Conserto de Impressoras e Notebooks em Águas Claras",
-  description: "Especialistas em conserto e manutenção de impressoras e notebooks. Sua Referência em Águas Claras - DF. Entre em contato via WhatsApp.",
-  keywords: ["conserto de impressora", "conserto de notebook", "manutenção de computadores", "assistência técnica", "Águas Claras", "Brasília", "DF", "KallangoTec", "TI", "Ed. Alfa Mix"]
+  title: "KallangoTec | Montagem e Manutenção de Computadores Gamers",
+  description: "Especialistas em montagem de PC Gamer, manutenção preventiva, watercoolers e assistência técnica de alto desempenho. Sua Referência em Águas Claras - DF.",
+  keywords: ["montagem de pc gamer", "manutenção de computadores gamers", "conserto de notebook gamer", "assistência técnica gamer Águas Claras", "limpeza de placa de vídeo", "setup gamer", "KallangoTec", "TI", "Ed. Alfa Mix"]
 };
 
 export default function RootLayout({
@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${inter.variable} bg-gray-50 font-inter tracking-tight text-gray-900 antialiased`}
+        className={`${inter.variable} bg-black font-inter tracking-tight text-slate-100 antialiased selection:bg-green-500 selection:text-black`}
       >
         <div className="flex min-h-screen flex-col overflow-hidden supports-[overflow:clip]:overflow-clip">
           {children}

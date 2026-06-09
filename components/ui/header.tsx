@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className="fixed top-2 z-30 w-full md:top-6">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <div className="relative flex h-14 items-center justify-between gap-3 rounded-2xl bg-white/90 px-3 shadow-lg shadow-black/[0.03] backdrop-blur-xs before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(var(--color-gray-100),var(--color-gray-200))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)]">
+        <div className="relative flex h-16 items-center justify-between gap-3 rounded-2xl bg-black/80 px-4 shadow-[0_0_15px_rgba(34,197,94,0.1)] border border-green-500/20 backdrop-blur-md">
           {/* Site branding */}
           <div className="flex flex-1 items-center">
             <Logo />
@@ -17,9 +17,9 @@ export default function Header() {
               <a
                 href="https://wa.me/556130440199"
                 target="_blank"
-                className="btn-sm bg-green-500 text-white shadow-sm hover:bg-green-600 transition-colors"
+                className="px-4 py-2 bg-transparent border border-green-500 text-green-500 font-bold text-sm uppercase tracking-wider rounded hover:bg-green-500 hover:text-black transition-all shadow-[0_0_10px_rgba(34,197,94,0.2)] hover:shadow-[0_0_20px_rgba(34,197,94,0.5)]"
               >
-                Fale Conosco
+                Orçamento
               </a>
             </li>
           </ul>
